@@ -1,0 +1,18 @@
+{
+  "name": "solidjs-minimal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vite --config .config/vite.config.js --host",
+    "build": "bunx --bun vite build --config .config/vite.config.js",
+    "preview": "bunx --bun vite preview --config .config/vite.config.js"
+  },
+  "dependencies": {
+    "solid-js": "^1.8"
+  },
+  "devDependencies": {
+    "vite": "^5.2",
+    "vite-plugin-solid": "^2.10"
+  }
+}

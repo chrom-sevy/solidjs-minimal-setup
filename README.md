@@ -1,0 +1,1 @@
+Minimal setup for solidjs using Bun.
